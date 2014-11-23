@@ -25,10 +25,6 @@ a {
   border: 2px solid rgb(104, 211, 123);
 }
 
-a[name='submit'] {
-  /*display: block;*/
-}
-
 input {
   height: 2em;
   border: 2px solid rgb(213, 213, 213);
@@ -60,9 +56,4 @@ label {
   margin: 4% auto;
   text-align: initial;
   width: 50%;
-}
-
-.clear {
-  clear:both;
-  line-height:0;
 }

@@ -7,25 +7,26 @@
   </head>
 
   <body>
-    <h1>Calcul8 R8</h1>
-    <div>
+    <header>
+      <h1>Calcul8 R8</h1>
+    </header>
 
-    <div id='rateDiv'>
+    <section id='rateDiv'>
       <p>Set your hourly base rate below or use the provided rate of $200!</p>
       <div id='rate'>$<span id='hrRate'></span>/hr</div>
-      <input type='number' id='bRate' placeholder='Base rate' required autofocus>
+      <input type='number' id='bRate' placeholder='Base Rate' required autofocus>
       <a id='rateBtn'>Set your rate</a>
-    </div>
-    <div id='rulesDiv'>
+    </section>
+    <section id='rulesDiv'>
       <p>Add a rule below which can be applied to cause your rate to go up or down!</p>
       <label for='ruleName'>Rule Name</label>
-      <input type='text' id='ruleName' placeholder='name' required>
-      <label for='ruleValue'>Cost</label>
-      <input type='number' id='ruleVal' placeholder='value' required>
+      <input type='text' id='ruleName' placeholder='Rails, hosting, etc.' required>
+      <label for='ruleVal'>Cost</label>
+      <input type='number' id='ruleVal' placeholder='Ex: +/-40' required>
       <div>
         <a name='submit'>Enter Rule</a>
       </div>
-    </div>
+    </section>
     <div id='ruleContainer'></div>
   </div>
     <script src='js/vendor/jquery-1.10.2.js'></script>
