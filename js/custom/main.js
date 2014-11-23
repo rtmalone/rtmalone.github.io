@@ -61,6 +61,6 @@
 
   function modifyRate(value) {
     bRate += value;
-    setRate();
+    showRate();
   }
 })();
