@@ -52,14 +52,14 @@
   }
 
   function increaseRate(posVal) {
-    math(posVal);
+    modifyRate(posVal);
   }
 
   function decreaseRate(negVal){
-    math(negVal);
+    modifyRate(negVal);
   }
 
-  function math(value) {
+  function modifyRate(value) {
     bRate += value;
     showRate();
   }
