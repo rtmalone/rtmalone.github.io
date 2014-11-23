@@ -19,6 +19,9 @@
   }
 
   function showRate() {
+    if(bRate < 0){
+      bRate = 0;
+    }
     $('#rateDiv :input').val('');
     $('#hrRate').text(bRate);
   }
