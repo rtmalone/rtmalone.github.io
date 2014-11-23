@@ -13,17 +13,8 @@ h1 {
   color: rgb(180, 0, 34);
 }
 
-input {
-  height: 2em;
-  border: 2px solid rgb(213, 213, 213);
-  border-radius: 5px;
-  border-style: inset;
-  padding-left: .5%;
-}
-
-label {
-  display: block;
-  margin-bottom: 0px;
+p {
+  font-size: 1.2em;
 }
 
 a {
@@ -36,6 +27,19 @@ a {
 
 a[name='submit'] {
   /*display: block;*/
+}
+
+input {
+  height: 2em;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 5px;
+  border-style: inset;
+  padding-left: .5%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0px;
 }
 
 #rate {
