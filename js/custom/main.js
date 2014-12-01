@@ -12,18 +12,19 @@
 
   function setRate() {
     bRate = $('#bRate').val() * 1;
-    if(bRate < 0){
-      bRate = 0;
-    }
     showRate();
   }
 
   function showRate() {
+    zeroCheck();
+    $('#rateDiv :input').val('');
+    $('#hrRate').text(bRate);
+  }
+
+  function zeroCheck(){
     if(bRate < 0){
       bRate = 0;
     }
-    $('#rateDiv :input').val('');
-    $('#hrRate').text(bRate);
   }
 
   function addRule () {
